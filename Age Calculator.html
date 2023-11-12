@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+</head>
+<body>
+
+  <script>
+    // Declare variables
+    let birthYear, currentYear, age;
+
+    // Get user input for birth year
+    birthYear = prompt("Enter your birth year:");
+
+    // Get user input for current year
+    currentYear = prompt("Enter the current year:");
+
+    // Convert input to numbers
+    birthYear = parseInt(birthYear);
+    currentYear = parseInt(currentYear);
+
+    // Calculate age
+    age = currentYear - birthYear;
+
+    // Display the result
+    console.log("Your age is: " + age);
+
+    // Create an array of numbers
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+    // Loop through the array
+    for (let i = 0; i < numbers.length; i++) {
+      // Check if the number is even
+      if (numbers[i] % 2 === 0) {
+        // Output even numbers
+        console.log("Even number: " + numbers[i]);
+      }
+    }
+  </script>
+
+</body>
+</html>
